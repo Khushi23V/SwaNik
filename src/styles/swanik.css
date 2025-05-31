@@ -1,0 +1,846 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Lilita+One&display=swap");
+@import url("https://unpkg.com/boxicons@latest/css/boxicons.min.css");
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --bg-color:rgb(248,172,0);
+    --text-color:linear-gradient(90deg,rgb(248,172,0),rgb(246,226,210));
+    --p-font:20px;
+    --i-font:16px;
+    
+}
+
+html{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+  }
+
+
+
+  .waitlist-btn:hover {
+    transform: scale(1.1);
+  }
+
+
+/* HOME PAGE */
+
+
+.info-section{
+    padding-top:100px;
+}
+.info-info{
+    display:block;
+    align-items:center;
+    padding:80px 10px 100px;
+    text-align: center;
+}
+
+.item1{
+    margin-bottom:20px;
+    padding:0px 80px;
+}
+
+.info-info p{
+    text-align:center;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 20px 10px;
+    transition:all .50s ease;
+    width:100%;
+    position:fixed;
+    background-color: white;
+    z-index: 1;
+}
+.footer-all{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    transition:all .50s ease;
+    background-color: rgb(248,172,0);
+    padding:15px 20px 15px;
+}
+
+.h1-footer{
+    font-size: var(--i-font);
+    font-weight: normal;
+    font-family:"Baloo Bhaijaan 2";
+    color:black;
+}
+#a2{
+    color:inherit;
+}
+#a2:hover{
+    color:white;
+}
+
+.pawlogo{
+    width:32px;
+    height:27px;
+    transition: transform 0.15s ease-in-out;
+}
+.pawlogo:hover{
+    transform: scale(1.1);
+}
+#menu-icon,#profile-icon{
+    color:var(--bg-color);
+    font-size:30px;
+    cursor:pointer;
+}
+
+.profile{
+    color:inherit;
+    text-decoration:none;
+}
+.logolink{
+    text-decoration:none;
+    color:inherit;
+    
+}
+.hlogot:hover,.vlogo:hover{
+    transform: scale(1.1);
+}
+.hlogot{
+    font-size: var(--p-font);
+    font-family: Lilita One;
+    transition: transform 0.15s ease-in-out;
+}
+.htitle,.htitle1{
+    font-family: Lilita One;
+    text-align:center;
+    font-size:var(--p-font);
+    background:var(--text-color);
+    background-clip:text;
+    color:transparent;
+}
+.report-section{
+    padding:60px 0px;
+}
+.report-info{
+    padding-top:30px;
+    position: relative; 
+ 
+}
+.report-info img{
+    display:block;
+    width:100%;
+    height:70vh;
+    object-fit:cover;
+    object-position:top;
+    z-index: 2;
+}
+
+.report-desc{
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:340px;
+    top: 65%; 
+    left:30%;
+    transform: translate(-50%, -50%); 
+    padding:10px;
+
+}
+.report-desc h1{
+    font-size:16px;
+    color:black;
+    font-family:"Baloo Bhaijaan 2";
+    text-align:center;
+    font-weight:normal;
+}
+.report-desc button{
+    height:50px;
+    width:100px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color:var(--bg-color);;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:"Baloo Bhaijaan 2";
+    font-size:20px;
+    margin-top:20px;
+    box-shadow: 0px 6px 10px 2px rgba(0, 0, 0,50%);
+}
+
+.report-desc button:hover{
+    color:black;
+    background-color:var(--bg-color);
+}
+.report-desc button a,.adopt-desc button a{
+    color:inherit;
+    text-decoration:none;
+    font-family:Lilita One;
+    font-weight:normal;
+}
+.info-section button{
+    font-family:Lilita One;
+    font-weight:normal;
+    height:50px;
+    width:150px;
+    border: none;
+    border-radius: 5px;
+    background-color:var(--bg-color);
+    color:white;
+    cursor: pointer;
+    font-size:20px;
+    margin-top:20px;
+    box-shadow: 1px 0px 10px 0.5px rgba(10, 10, 10, 0.5);
+    transition:all 0.3 ease-in-out;
+
+}
+.adopt-info{
+    position:relative;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:60px 60px;
+    
+}
+.adopt-section{
+    padding-top:30px;
+}
+.adopt-info img{
+    width:200px;
+    height:auto;
+}
+.adopt-desc h1{
+    font-size:16px;
+    color:black;
+    font-family:"Baloo Bhaijaan 2";
+    text-align:center;
+    font-weight:normal;
+}
+.adopt-desc button{
+    height:50px;
+    width:100px;
+    background-color:var(--bg-color);
+    border: none;
+    border-radius: 5px;
+    text-align:center;
+    color:white;
+    cursor: pointer;
+    font-size:20px;
+    margin-top:20px;
+    box-shadow: 0px 6px 10px 2px rgba(0, 0, 0,50%);
+}
+
+.adopt-desc button:hover{
+    color:var(--bg-color);
+    background-color:white;
+}
+
+.adopt-desc{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:10px;
+    margin-left:20%;
+}
+
+.volunteer-section{
+    text-align:center;
+    padding:30px 0px 50px;
+}
+
+.volunteer-section p{
+    font-family:"Baloo Bhaijaan 2";
+}
+
+.volunteer-info{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding-top:30px;
+}
+
+.volunteer-info a{
+    color:inherit;
+    font-size:16px;
+}
+
+#a:hover{
+    color:var(--bg-color);
+}
+
+#b{
+    font-weight:bold;
+}
+
+#c{
+    padding-top:50px;
+    font-size:16px;
+}
+
+.navlist{
+    font-size:15px;
+    position:fixed;
+    display:none;
+    top:60px;
+    color:black;
+    font-family:"Baloo Bhaijaan 2";
+    background-color:white;
+    box-shadow:0px 0px 10px rgba(0, 0, 0,50%);
+    border-radius:5px;
+    margin-left:85%;
+    margin-right:10px;
+    width:auto;
+    padding:20px;
+    height:auto;
+}
+
+.navlist ul li{
+    padding:10px;
+    font-size:16px;
+    margin-left:-30px;
+    font-weight:bold;
+}
+
+.navlist ul{
+    padding-left:20px;
+    list-style:none;
+}
+
+.navlist p{
+   margin-top:10px;
+}
+
+.navlist ul li a{
+    text-decoration:none;
+    color:inherit;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  @media only screen and (max-width:1200px){
+    .navlist{
+        width:160px;
+        margin-left:80%;
+    }
+  }
+
+  @media only screen and (max-width:920px){
+    .navlist{
+        width:160px;
+    }
+  }
+
+  @media only screen and (max-width:720px){
+    .adopt-info img{
+        width:150px;
+    }
+    .adopt-desc h1,.report-desc h1,.volunteer-info a,#c{
+        font-size:18px;
+    }
+
+    .adopt-desc button,.report-desc button{
+        height:45px;
+        width:90px;
+    }
+    .navlist a{
+        font-size:15px;
+    }
+    .navlist p{
+        font-size:10px;
+    }
+    .navlist{
+        width:auto;
+        margin-left:75%;
+    }
+    .report-desc{
+        width:200px;
+        top:60%;
+    }
+    .report-desc h1,.adopt-desc h1{
+        font-size:var(--i-font);
+    }
+    #c,#a{
+        font-size:var(--i-font);
+    }
+  }
+
+
+/* PROFILE PAGE */
+
+.profilecss{
+    padding:40px 0px 40px;
+}
+.pf-name{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:15px;
+}
+.pprofile{
+    background-color: var(--bg-color);
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#pfp-icon{
+    font-size:100px;
+}
+
+.h1pfp{
+    font-family:Lilita One;
+    font-size:35px;
+}
+
+.pinfo{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:20px;
+}
+.ppfp{
+    font-size:var(--p-font);
+    font-family: "Baloo Bhaijaan 2";
+}
+
+#ui-image,#s-image,#rm-image,#da-image,#d-image,#arrow-image{
+    font-size:25px;
+    color:var(--bg-color);
+    
+}
+
+.lining{
+    border-top:1.5px solid rgba(185, 185, 185, 1);
+  
+}
+
+.linkpfp{
+    text-decoration:none;
+    color: inherit;
+}
+
+.full{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:15px 40px 15px;
+}
+
+@media only screen and (max-width:720px){
+    .ppfp{
+        font-size:var(--i-font);
+    }
+    #ui-image,#s-image,#rm-image,#da-image,#d-image,#arrow-image{
+        font-size:20px;
+    }
+    .h1pfp{
+        font-size:30px;
+    }
+    #pfp-icon{
+        font-size:80px;
+    }
+    .pprofile{
+        width:120px;
+        height:120px;
+    }
+}
+
+.update-info{
+    padding-top:50px;
+}
+
+/* ADOPT PAGE */
+
+.adoptcss{
+    padding:40px 40px 10px;
+}
+
+.h1adopt,.h1report{
+    font-family: Lilita One;
+    text-align:center;
+    font-size:var(--p-font);
+    background:var(--text-color);
+    background-clip:text;
+    color:transparent;
+    padding:20px 0px 40px;
+}
+
+.settings{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:5px;
+}
+
+#filter{
+    font-size:25px;
+}
+
+.padopt,.linkadopt{
+    font-family: "Baloo Bhaijaan 2";
+    font-size:18px;
+    text-decoration: none;
+    color:inherit;
+}
+
+.card{
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,50%);
+    width:45vw;
+    height:auto;
+    padding:20px;
+    border-radius:20px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    
+}
+.cards{
+    padding:50px 0px 50px;
+    gap:30px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}
+
+.imgadopt{
+    width:40vw;
+    height:180px;
+    object-fit:cover;
+    border-radius: 20px;
+    border-color:var(--bg-color);
+    border-width:medium;
+    border-style: solid;
+}
+
+.card-info{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:40vw;
+}
+
+.features{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.viewsave{
+    display:flex;
+    gap:10px;
+}
+
+.nameloc p:first-child{
+    color:var(--bg-color);
+    font-size:23px;
+    font-weight: bold;
+}
+
+.buttonadopt{
+    background-color: var(--bg-color);
+    border:none;
+    border-radius:10px;
+    width:55px;
+}
+.nameloc{
+    display:block;
+}
+
+.nameloc p:last-child{
+    margin-top:-10px;
+}
+.alerting{
+    cursor:pointer;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:620px){
+    .cards{
+        grid-template-columns: repeat(1, auto);
+    }
+    .card{
+        width:65vw;
+    }
+    .imgadopt,.card-info{
+        width:55vw;
+    }
+    .padopt,.linkadopt{
+        font-size:14px;
+    }
+    .nameloc p:first-child{
+        font-size:20px;
+    }
+}
+
+/* VOLUNTEER PAGE */
+
+.h1v{
+    font-family: Lilita One;
+    text-align:center;
+    font-size:var(--p-font);
+    background:var(--text-color);
+    background-clip:text;
+    color:transparent;
+    padding:20px 0px 40px;
+}
+
+.vinfo{
+    font-family:"Baloo Bhaijaan 2";
+    text-align: justify;
+    padding:35px;
+    background-color:white;
+}
+
+.h2v{
+    font-size:var(--p-font);
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.pv,.ulv,.liv{
+    font-size:16px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.footerv{
+    background-color: var(--bg-color);
+    bottom:0;
+    width:100%;
+    display:block;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.vlogo{
+    width:32px;
+    height:27px;
+    transition: all 0.5 ease-in-out;
+}
+.border{
+    background-color: var(--bg-color);
+    padding:15px;
+}
+
+/* VIEW PAGE */
+
+#back-icon{
+    color:black;
+    font-size:50px;
+    cursor:pointer;
+}
+
+.imgs{
+    width:40vw;
+    height:250px;
+    border-radius: 10px;
+    border-color: var(--bg-color);
+    border-width: medium;
+    border-style: solid;
+    object-fit:cover;
+}
+
+.main-div{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    padding:20px 0px 20px;
+}
+.imgdiv{
+    margin:auto;
+}
+
+.infodiv{
+    background-color:var(--bg-color);
+    width:100vw;
+    height:auto;
+    padding:20px;
+    padding-left:50px;
+}
+
+.h1s{
+    font-size: 25px;
+}
+
+.ps{
+    font-size: var(--p-font);
+}
+
+.h2s,.p2s{
+    font-size: var(--p-font);
+    margin-bottom: 20px;
+}
+
+.p2s{
+    color:rgb(87, 87, 87)
+}
+
+.detaildiv{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:150px;
+    padding:50px;
+}
+
+.buttons{
+    height:50px;
+    width:100px;
+    background-color:var(--bg-color);
+    border: none;
+    border-radius: 5px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:"Lilita One";
+    font-size:var(--p-font);
+    margin-top:20px;
+    box-shadow: 0px 6px 10px 2px rgba(0, 0, 0,50%);
+}
+
+.buttondiv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color:rgb(87, 87, 87);
+}
+
+
+/* REPORT PAGE */
+
+.rep-h1{
+    font-size: var(--i-font);
+    text-align: center;
+    font-weight: normal;
+    margin-top:-20px;
+    margin-bottom:30px;
+    color:#444;
+}
+.report-page{
+    padding:50px 20px 20px;
+}
+.image-r{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(226, 226, 226, 1);
+    border-radius:20px;
+    width:40vw;
+    height:200px;
+    margin:auto;
+}
+.formdiv{
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.h1-r{
+    font-size:var(--p-font);
+}
+.form-r{
+    display: flex;
+    flex-direction: column;  
+}
+
+label,input[type="text"],input[type="email"]{
+    display:block;
+    font-size:var(--i-font);
+    padding:10px;
+}
+
+input[type="submit"] {
+    display:block;
+    margin:auto;
+    height:45px;
+    width:120px;
+    background-color:var(--bg-color);
+    border-radius:5px;
+    color:black;
+    font-family:"Lilita One";
+    border:none;
+    padding:5px 10px;
+    font-size:var(--p-font);
+    margin-top:20px;
+    cursor: pointer;
+}
+
+input[type="text"],input[type="email"],textarea{
+    width:40vw;
+    margin:auto;
+    border:none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius:5px;
+    height:35px;
+    font-family:"Baloo Bhaijaan 2";
+    font-size:14px;
+    padding-left:10px;
+}
+label{
+    font-weight:bold;
+}
+
+.radio-i{
+    font-size: 50px;
+    margin: 0 0.5em 0 0;
+    display:none;
+    
+}
+.label-i:has(input:checked) {
+    background-color: var(--bg-color);
+    color:white;
+  }
+
+.label-i{
+    font-weight:normal;
+    font-size: var(--i-font);
+    cursor:pointer;
+    background-color: rgba(161, 161, 161,0.1);
+    transition:background-color 0.1s;
+    border-radius: 20px;
+}
+.label-i:hover{
+    background-color: rgba(161, 161, 161,0.5)
+}
+.loc-h2{
+    text-align:center;
+    font-weight:normal;
+    font-size:var(--i-font);
+    padding-bottom: 30px;
+}
+
+.age-options{
+    display:inline-flex;
+    gap:10px;
+    padding:0px 50px;
+    text-align:center;
+    
+}
