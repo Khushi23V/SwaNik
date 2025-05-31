@@ -11,6 +11,7 @@ Swanik is a web application built to help users report, adopt, and support stray
 
 
 🚀 Technologies Used
+
 Frontend: Vite + React.js
 
 Styling: CSS
