@@ -1,5 +1,5 @@
 Swanik is a web application built to help users report, adopt, and support stray dogs in their community. The goal of the project is to promote animal welfare through a simple, intuitive, and impactful platform.
-
+ Site Link: https://swanik.netlify.app/
 🌟 Features
 📍 Report Strays: Users can report sightings of stray dogs with location data and photos.
 
